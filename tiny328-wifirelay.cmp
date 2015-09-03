@@ -1,0 +1,59 @@
+Cmp-Mod V01 Created by Cvpcb (2015-05-08 BZR 5647)-product   date = Thu 03 Sep 2015 11:39:35 CEST
+
+BeginCmp
+TimeStamp = /55E8194D;
+Reference = C1;
+ValeurCmp = 1uF;
+IdModule  = Capacitors_SMD:C_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55E8198A;
+Reference = C2;
+ValeurCmp = 10uF;
+IdModule  = Capacitors_SMD:C_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55E819C9;
+Reference = C3;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors_SMD:C_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B773A5;
+Reference = P1;
+ValeurCmp = RX868SH-DV;
+IdModule  = mylib:RX868-SH;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B77A99;
+Reference = R1;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B67E98;
+Reference = U1;
+ValeurCmp = TINY328;
+IdModule  = mylib:TINY328_CONN;
+EndCmp
+
+BeginCmp
+TimeStamp = /55E80CC8;
+Reference = U2;
+ValeurCmp = ESP-01v090;
+IdModule  = ESP8266:ESP-01;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B777E6;
+Reference = U3;
+ValeurCmp = LD1117S33TR;
+IdModule  = SMD_Packages:SOT-223;
+EndCmp
+
+EndListe
