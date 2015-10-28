@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-05-08 BZR 5647)-product   date = Thu 03 Sep 2015 11:39:35 CEST
+Cmp-Mod V01 Created by Cvpcb (2015-05-08 BZR 5647)-product   date = Thu 03 Sep 2015 20:03:41 CEST
 
 BeginCmp
 TimeStamp = /55E8194D;
@@ -22,6 +22,34 @@ IdModule  = Capacitors_SMD:C_0603_HandSoldering;
 EndCmp
 
 BeginCmp
+TimeStamp = /55E88D78;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55E88DA6;
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55E88DCB;
+Reference = D3;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55E88DF3;
+Reference = D4;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-0805;
+EndCmp
+
+BeginCmp
 TimeStamp = /55B773A5;
 Reference = P1;
 ValeurCmp = RX868SH-DV;
@@ -32,6 +60,34 @@ BeginCmp
 TimeStamp = /55B77A99;
 Reference = R1;
 ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55E88B3C;
+Reference = R2;
+ValeurCmp = 68;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55E88B16;
+Reference = R3;
+ValeurCmp = 68;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55E88AED;
+Reference = R4;
+ValeurCmp = 68;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55E88AAB;
+Reference = R5;
+ValeurCmp = 68;
 IdModule  = Resistors_SMD:R_0603_HandSoldering;
 EndCmp
 
