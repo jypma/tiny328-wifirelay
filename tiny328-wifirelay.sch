@@ -130,13 +130,13 @@ Wire Wire Line
 $Comp
 L +3.3V #PWR04
 U 1 1 55B77763
-P 1150 3500
-F 0 "#PWR04" H 1150 3350 50  0001 C CNN
-F 1 "+3.3V" H 1150 3640 50  0000 C CNN
-F 2 "" H 1150 3500 60  0000 C CNN
-F 3 "" H 1150 3500 60  0000 C CNN
-	1    1150 3500
-	-1   0    0    1   
+P 1150 2850
+F 0 "#PWR04" H 1150 2700 50  0001 C CNN
+F 1 "+3.3V" H 1150 2990 50  0000 C CNN
+F 2 "" H 1150 2850 60  0000 C CNN
+F 3 "" H 1150 2850 60  0000 C CNN
+	1    1150 2850
+	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR05
@@ -237,22 +237,18 @@ $EndComp
 $Comp
 L R R1
 U 1 1 55B77A99
-P 1000 3350
-F 0 "R1" V 1080 3350 50  0000 C CNN
-F 1 "10k" V 1000 3350 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 930 3350 30  0001 C CNN
-F 3 "" H 1000 3350 30  0000 C CNN
-	1    1000 3350
+P 1250 3650
+F 0 "R1" V 1330 3650 50  0000 C CNN
+F 1 "10k" V 1250 3650 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 1180 3650 30  0001 C CNN
+F 3 "" H 1250 3650 30  0000 C CNN
+	1    1250 3650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1150 3300 1150 3500
+	1150 2850 1150 3400
 Wire Wire Line
 	1150 3400 1350 3400
-Wire Wire Line
-	1350 3200 1000 3200
-Wire Wire Line
-	1150 3500 1000 3500
 Text Label 2650 1000 2    60   ~ 0
 RST
 Wire Wire Line
@@ -265,7 +261,7 @@ ESP_PD
 Text Label 4450 1600 0    60   ~ 0
 ESP_PD
 Text Notes 4850 1600 0    60   ~ 0
-low to enable
+low to power down
 $Comp
 L ESP-01v090 U2
 U 1 1 55E80CC8
@@ -456,7 +452,7 @@ F 3 "" H 5850 1950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5750 1850 5850 1850
+	5850 1850 5750 1850
 Wire Wire Line
 	5850 1250 5850 1950
 Wire Wire Line
@@ -468,4 +464,22 @@ Connection ~ 5850 1700
 Wire Wire Line
 	5750 1250 5850 1250
 Connection ~ 5850 1400
+$Comp
+L GND #PWR?
+U 1 1 563127D7
+P 1250 3900
+F 0 "#PWR?" H 1250 3650 50  0001 C CNN
+F 1 "GND" H 1250 3750 50  0000 C CNN
+F 2 "" H 1250 3900 60  0000 C CNN
+F 3 "" H 1250 3900 60  0000 C CNN
+	1    1250 3900
+	1    0    0    -1  
+$EndComp
+Connection ~ 1150 3300
+Wire Wire Line
+	1350 3200 1250 3200
+Wire Wire Line
+	1250 3200 1250 3500
+Wire Wire Line
+	1250 3900 1250 3800
 $EndSCHEMATC
